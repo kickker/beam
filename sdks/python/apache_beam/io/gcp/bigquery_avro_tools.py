@@ -38,6 +38,9 @@ BIG_QUERY_TO_AVRO_TYPES = {
     "FLOAT": "double",
     "INT64": "long",
     "INTEGER": "long",
+    "JSON": {
+        "type": "string", 
+        "sqlType": "JSON"},
     "TIME": {
         "type": "long",
         "logicalType": "time-micros",
